@@ -1,0 +1,39 @@
+{
+  "$schema": "./src/config/site-config.schema.json",
+  "schemaVersion": 1,
+  "site": {
+    "name": "RomanceBook",
+    "slug": "romancebook",
+    "description": "Discover your next favorite romance novel",
+    "language": "en",
+    "url": "https://romancebook.example.com"
+  },
+  "genre": {
+    "primary": "romance",
+    "subgenres": [
+      "contemporary-romance",
+      "historical-romance",
+      "romantic-suspense",
+      "paranormal-romance"
+    ]
+  },
+  "seo": {
+    "titleTemplate": "%s | RomanceBook",
+    "defaultTitle": "RomanceBook — Discover Romance Novels",
+    "description": "Browse and discover romance novels across all subgenres. Find your next great read.",
+    "ogImage": ""
+  },
+  "providers": {
+    "openLibrary": {
+      "enabled": true
+    },
+    "googleBooks": {
+      "enabled": false
+    }
+  },
+  "ingestion": {
+    "batchSize": 20,
+    "maxBooksPerRun": 100
+  },
+  "setupComplete": false
+}

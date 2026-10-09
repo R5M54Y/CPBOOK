@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Cloudflare
+.wrangler/
+.dev.vars
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Site configuration (contains deployment-specific settings)
+site.config.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local D1 database
+.mf/
+
+# Test coverage
+coverage/
+
+# TypeScript build artifacts
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+vitest.config.js
+vitest.config.d.ts

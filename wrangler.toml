@@ -1,0 +1,20 @@
+name = "cpabook-worker"
+main = "worker/index.ts"
+compatibility_date = "2024-09-25"
+
+[vars]
+ENVIRONMENT = "development"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cpabook-db"
+database_id = "TO_BE_CONFIGURED"
+
+# Uncomment for R2 when needed
+# [[r2_buckets]]
+# binding = "ASSETS"
+# bucket_name = "cpabook-assets"
+
+# Cron triggers for scheduled ingestion
+# [triggers]
+# crons = ["0 */6 * * *"]
