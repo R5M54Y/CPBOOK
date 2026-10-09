@@ -8,7 +8,7 @@ ENVIRONMENT = "development"
 [[d1_databases]]
 binding = "DB"
 database_name = "cpabook-db"
-database_id = "TO_BE_CONFIGURED"
+database_id = "6d80e853-bc25-4453-983a-0fd733878300"
 
 # Uncomment for R2 when needed
 # [[r2_buckets]]
